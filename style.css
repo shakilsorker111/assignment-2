@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+
+
+
+
+
+/* Navbar Related Styles */
+.navbar nav{
+    display: flex;
+    margin: 20px 140px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav div{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.navbar nav div span{
+    display: none;
+}
+
+.navbar nav div h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.navbar nav ul li{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar nav button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: #FEA301;
+}
+
+
+
+
+
+/* for mobile screen */
+@media screen and (max-width: 576px) {
+    .navbar nav ul,
+    .navbar nav div h1,
+    .navbar nav button{
+        display: none;
+    }
+
+    .navbar{
+        border-bottom: 0.5px solid #FEA301;
+        border-width: 0.5px;
+    }
+
+    .navbar nav{
+        margin: 12px 16px;
+    }
+
+    .navbar nav div{
+        gap: 17.625rem;
+    }
+
+    .navbar nav div span{
+        display: initial;
+    }
+
+}
