@@ -99,7 +99,13 @@
     background-color: #111111;
     border: none;
     border-radius: 12px;
+    margin-bottom: 24px;
 }
+
+
+
+
+
 
 
 
@@ -128,6 +134,27 @@
 
     .navbar nav div span{
         display: initial;
+    }
+
+
+    /* hero section */
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .hero-text{
+        text-align: center;
+    }
+
+    .hero-section img{
+        width: 100vw;
+        padding: 20px 10px;
+        justify-content: center;
+    }
+
+    .hero-img{
+        width: 100vw;
     }
 
 }
