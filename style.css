@@ -13,6 +13,15 @@
 }
 
 
+
+.raleway-fonts {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* Shared Style */
 .display-flex{
     display: flex;
@@ -178,6 +187,114 @@
     color: #FFFFFF;
     border: none;
     border-radius: 50%;
+}
+
+
+
+
+
+/* Our stories related styles */
+
+.our-stories{
+    background-image: url(assets/bg.png);
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(254, 163, 1, 0.3));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-stories h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 60px;
+}
+
+.stories-container{
+    display: flex;
+    margin: 80px 140px;
+    gap: 18px;
+}
+
+.stories-1{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 16px;
+}
+
+.stories-1 img{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.stories-1 button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 19px;
+    background-color: rgba(60, 216, 232, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 48px;
+    margin-left: 38px;
+    margin-top: -25px;
+}
+
+.stories-1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 36px;
+    padding: 0 38px;
+}
+
+.stories-1 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 47px;
+    padding: 0 38px;
+    margin-bottom: 34px;
+}
+
+.stories-2-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.stories-2{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 16px;
+}
+
+.stories-2 img{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.stories-2 button{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 19px;
+    border: none;
+    border-radius: 48px;
+    margin-left: 38px;
+    margin-top: -19px;
+    background-color: rgba(149, 178, 38, 1);
+}
+
+#stories-button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 61px;
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 60px;
 }
 
 
