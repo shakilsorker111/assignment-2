@@ -230,4 +230,17 @@
         width: 100vw;
     }
 
+
+
+    /* Standard Curriculum */
+
+    .card-container{
+        flex-direction: column;
+        margin: 0 16px;
+    }
+
+    .arrow-button-container{
+        display: none;
+    }
+
 }
