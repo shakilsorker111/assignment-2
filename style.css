@@ -286,6 +286,12 @@
     background-color: rgba(149, 178, 38, 1);
 }
 
+.stories-2 h5{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 33px 38px;
+}
+
 #stories-button{
     font-size: 20px;
     font-weight: 700;
@@ -358,6 +364,19 @@
 
     .arrow-button-container{
         display: none;
+    }
+
+
+
+    /* our stories section */
+
+    .stories-1{
+        display: none;
+    }
+
+    .stories-2-container{
+        margin: 20px 16px;
+        display: grid;
     }
 
 }
