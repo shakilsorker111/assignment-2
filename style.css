@@ -307,6 +307,23 @@
     margin-bottom: 60px;
 }
 
+.marquee{
+    display: flex;
+    align-items: center;
+    width: 36rem;
+    height: 2rem;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+.marquee marquee{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 61px;
+    color: rgba(255, 255, 255, 1);
+}
+
 
 
 
