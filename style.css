@@ -37,6 +37,7 @@
     margin: 20px 140px;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .navbar nav div{
